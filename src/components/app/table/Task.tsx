@@ -111,7 +111,7 @@ export default function TaskTable({ projectName }: { projectName: string }) {
                                 </TableRow>
                                 {indexesToShow[index] && (
                                     <TableRow>
-                                        <TableCell className="bg-gray-100">
+                                        <TableCell colSpan={5} className="bg-gray-100">
                                             <div className="p-2">
                                                 {task.descricao}
                                             </div>

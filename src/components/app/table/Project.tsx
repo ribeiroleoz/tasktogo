@@ -21,7 +21,7 @@ export default function TableProjects({ projects, onInsert }: { projects: Projec
     }
 
   return (
-      <div className="max-h-96 overflow-y-auto">
+      <div className="h-96 overflow-y-auto">
         <div className="flex justify-end">
             <Button onClick={() => setIsDialogOpen(true)} className="mt-5 px-8 bg-slate-50 text-slate-900 hover:bg-slate-200">
                 Novo Projeto
